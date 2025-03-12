@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     environment {
-        SRN_VERSION = 'YOUR_SRN-1'
-        CPP_FILE = 'example.cpp'
+        SRN_VERSION = 'PES2UG22CS102'
+        CPP_FILE = 'hello.cpp'
     }
     
     stages {
