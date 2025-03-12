@@ -26,7 +26,7 @@ pipeline {
                 script {
                     try {
                         echo "Running tests on compiled .cpp file"
-                        sh './exampleaa.out'
+                        sh './example.out'
                     } catch (Exception e) {
                         currentBuild.result = 'FAILURE'
                         throw e
