@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         SRN_VERSION = 'PES2UG22CS102'
-        CPP_FILE = 'pattern.cpp'
+        CPP_FILE = 'patterns.cpp'
     }
     
     stages {
