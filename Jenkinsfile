@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         SRN_VERSION = 'PES2UG22CS102'
-        CPP_FILE = 'patterns.cpp'
+        CPP_FILE = 'pattern.cpp'
     }
     
     stages {
@@ -29,7 +29,7 @@ pipeline {
                         sh './example.out'
                     } catch (Exception e) {
                         currentBuild.result = 'FAILURE'
-                        throw e
+                        throw a
                     }
                 }
             }
